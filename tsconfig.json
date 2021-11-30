@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es6",
+    "rootDirs": ["src", "test"],
+    "outDir": "dist/js",
+    "noEmitOnError": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}

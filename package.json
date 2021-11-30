@@ -1,0 +1,24 @@
+{
+  "name": "years-to-go",
+  "version": "0.0.1",
+  "description": "Browser extension counting down the remaining years of life",
+  "author": "Sergey Kobyakov <skobyakov.std@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run clean && webpack",
+    "clean": "rimraf dist",
+    "test": "uvu -r tsm test"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "nanospy": "^0.4.0",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.6",
+    "tsm": "^2.1.4",
+    "typescript": "^4.5.2",
+    "uvu": "^0.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}

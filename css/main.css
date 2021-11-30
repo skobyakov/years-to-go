@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group * {
+  margin: 0 5px;
+}
+
+.counter {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.search-input {
+  width: 40vw;
+  font-size: 30px;
+}
+
+.birthday-text {
+  font-size: 40px;
+}
+
+.birthday-input {
+  font-size: 40px;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+}
