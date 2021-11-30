@@ -34,7 +34,7 @@ module.exports = {
       patterns: [
         { from: path.join(__dirname, 'manifest.json') },
         { from: path.join(cssDir, 'main.css') },
-        { from: path.join(imgDir, 'border-48.png') },
+        { from: path.join(imgDir, 'icon-48.png') },
       ],
     }),
   ],

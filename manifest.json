@@ -9,7 +9,7 @@
   },
   "content_security_policy": "script-src 'self'; object-src 'self';",
   "icons": {
-    "48": "border-48.png"
+    "48": "icon-48.png"
   },
   "permissions": ["search", "storage"]
 }
